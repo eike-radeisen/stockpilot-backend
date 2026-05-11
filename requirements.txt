@@ -8,3 +8,4 @@ yfinance
 openai
 pandas
 python-multipart
+psycopg2-binary
