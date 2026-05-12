@@ -25,3 +25,7 @@ app.include_router(ai.router)
 @app.get("/")
 def root():
     return {"status": "ok", "app": "StockPilot MVP"}
+    
+@app.get("/health")
+def health():
+    return {"status": "ok"}
